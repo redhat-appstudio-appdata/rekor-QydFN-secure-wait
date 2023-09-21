@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: rekor-japower
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/japower-tenant/rekor/rekor-japower@sha256:7c27b0b68fb787e3e6f6ab24bb123ead71b6b28d3df7fddb05c8d3601bf85f4e
+      - image: quay.io/redhat-user-workloads/japower-tenant/rekor/rekor-japower@sha256:910ea695c85d90b9dffb264cc98ce70100f9b8088ce504886d9fa025f07dbb5c
         imagePullPolicy: Always
         name: container-image
         ports:
