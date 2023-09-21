@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: rekor-japower
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/japower-tenant/rekor/rekor-japower@sha256:648030040458cb6e2476b226059ceb730ddddf829456953cea46c4113ba8752e
+        name: container-image
+        resources: {}
+status: {}
