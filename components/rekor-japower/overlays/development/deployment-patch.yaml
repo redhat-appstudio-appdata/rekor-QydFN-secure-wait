@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/japower-tenant/rekor/rekor-japower@sha256:f182501632feb9fb304e0012e5feea887e767ef703626f87e46e3a53462fb28b
+      - image: quay.io/redhat-user-workloads/japower-tenant/rekor/rekor-japower@sha256:970680ffc802d4f69cfbe5b436bc0628256c82b254661e3ac2589da8f920aa62
         name: container-image
         resources: {}
 status: {}
